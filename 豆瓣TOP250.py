@@ -1,7 +1,6 @@
 # -*- encoding: UTF-8 -*-
 #爬取豆瓣电影TOP250榜单中序号、对应电影、对应电影评分和电影图片地址
 
-
 import requests
 from bs4 import BeautifulSoup
 def getfilm(page):
