@@ -1,6 +1,7 @@
 # -*- encoding: UTF-8 -*-
 #使用BeautifulSoup获取豆瓣新片榜， 口碑榜， 票房榜
 
+
 import requests
 from bs4 import BeautifulSoup
 #将请求网址定义为get_soup方法，方便二次调用
